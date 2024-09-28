@@ -1,0 +1,15 @@
+id = "move"
+name = "Aptos Move"
+version = "0.0.1"
+schema_version = 1
+authors = ["t0anh <anh95.nt@gmail.com>"]
+description = "Aptos Move support"
+repository = "https://github.com/t0anh/aptos-move-extension"
+
+[grammars.move]
+repository = "https://github.com/tzakian/tree-sitter-move"
+commit = "8bc0d1692caa8763fef54d48068238d9bf3c0264"
+
+[language_servers.move]
+language = "Move"
+name = "Move LSP"
